@@ -1,0 +1,6 @@
+<!--pages/buy/index.wxml-->
+<view class="button-sp-area">
+  <view>正在购买：{{docName}}</view>
+  <image src="{{qrCodeimageUrl}}" mode="aspectFit"></image>
+  <button bindtap="back" type="primary" plain="true">我已支付</button>
+</view>
