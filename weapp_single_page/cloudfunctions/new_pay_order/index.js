@@ -55,7 +55,6 @@ exports.main = async (event, context) => {
       }
     }
   } else {
-    ctx.status = 200
-    ctx.body = { errMsg: "生成支付订单未成功" }
+    return { errMsg: "生成支付订单未成功" }
   }
 }
