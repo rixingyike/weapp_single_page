@@ -18,7 +18,7 @@ exports.main = async (event, context) => {
     _id: _.eq(id)
   }).orderBy('data_created', 'desc').limit(1).get().catch(console.log)
 
-  if (!res || !res.errMsg === "collection.get:ok" || !res.data[0]) { errMsg: "没有找到购买记录" }
+  if (!res || !res.errMsg === "collection.get:ok" || !res.data[0]) return { errMsg: "没有找到购买记录" }
 
   const data = res.data[0]
   if (data.paid) {
