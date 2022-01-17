@@ -4,5 +4,5 @@
 
 小白学编程7天入门，关注微信视频号「石桥码农」开启学习之路。
 
-<img src="https://cdn.jsdelivr.net/gh/rixingyike/images/2021/2022011623590620220116235906.png" alt="石桥码农视频号" style="zoom: 10%;" />
+<img src="https://cdn.jsdelivr.net/gh/rixingyike/images/2021/2022011623590620220116235906.png" style="zoom:25%;" />
 
